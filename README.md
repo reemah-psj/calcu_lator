@@ -2,41 +2,18 @@
 
 This Python-based calculator allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes advanced mathematical operations like logarithms (with a customizable base) and exponentiation.
 
-How to Use:
+How to use: 
 
-Execute the Python script in your terminal or command prompt.
+git clone https://github.com/your-username/calculator.git 
 
-Select an Operation:
+use the 'git pull' command to get the latest changes of the repo on github and merge it with your local copy
 
-After running the script, you will be prompted to choose an operation by entering a number:
+change the directory - cd calculator
 
-1: Addition
+run the program - python calculator.py
 
-2: Subtraction
+to remove the program, go back to the directory, use: 
 
-3: Multiplication
+rm -rf calculator (Mac or Linux)
 
-4: Division
-
-5: Logarithm
-
-6: Exponential
-
-7: Exit
-
-Input the Numbers:
-
-Based on the operation you selected, you will be asked to input the necessary numbers:
-
-For basic arithmetic operations: Enter two numbers.
-
-For logarithms: Enter the number and optionally the logarithm base (or press Enter to use the default base 10).
-
-For exponentiation: Enter the base number and the exponent.
-
-View the Result:
-
-The program will display the result of your calculation.
-
-After each calculation, you will be asked if you want to perform another calculation. Enter yes to continue or no to exit the program.
-
+rmdir /s calculator (if you're using a command prompt)
