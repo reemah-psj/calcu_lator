@@ -20,10 +20,16 @@ python calculator.py
 
 ##### Remove the program
 
-To remove the program, go back to the directory, use: 
+You can now delete the entire calculator directory and its contents:
+
+1. On Mac or Linux:
+   
+```
+rm -rf calculator
+```
+
+2. On Windows, you can delete the folder via File Explorer, or use Command Prompt:
 
 ```
-rm -rf calculator (Mac or Linux)
-
-rmdir /s calculator (if you're using a command prompt)
+rmdir /s calculator 
 ```
