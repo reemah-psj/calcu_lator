@@ -1,19 +1,29 @@
 # calcu_lator
 
+## Getting Started
+
 This Python-based calculator allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes advanced mathematical operations like logarithms (with a customizable base) and exponentiation.
 
-How to use: 
+### Installing
 
-git clone https://github.com/your-username/calculator.git 
+ Install all the requirements
+   
+```
+git clone https://github.com/your-username/calculator.git
+```
 
-use the 'git pull' command to get the latest changes of the repo on github and merge it with your local copy
+#### Run the program
 
-change the directory - cd calculator
+```
+python calculator.py
+```
 
-run the program - python calculator.py
+##### Remove the program
 
-to remove the program, go back to the directory, use: 
+To remove the program, go back to the directory, use: 
 
+```
 rm -rf calculator (Mac or Linux)
 
 rmdir /s calculator (if you're using a command prompt)
+```
